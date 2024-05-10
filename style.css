@@ -28,7 +28,7 @@ a, .btn {
 /* DESKTOP NAV */
 
 .logo {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .logo:hover {
@@ -141,9 +141,9 @@ a:hover {
 /* SECTIONS */
 
 section {
-    padding-top: 4vh;
+    padding-top: 0vh;
     height: 96vh;
-    margin: 0 10rem;
+    margin: 0 8rem;
     box-sizing: border-box;
     min-height: fit-content;
 }
@@ -161,10 +161,10 @@ section {
     height: 80vh;
 }
 
-.section__pic-container {
+.section_pic-container {
     display: flex;
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
     margin: auto 0;
 }
 
@@ -174,7 +174,7 @@ section {
 }
 
 .section__text p {
-    font-weight: 600;
+    font-weight: 1000;
 }
 
 .section__text__p1 {
@@ -182,12 +182,17 @@ section {
 }
 
 .section__text__p1 {
-    font-size: 1.75rem;
+    font-size: 2.5rem;
+    margin-bottom: 0rem;
+}
+
+.section__text__p2 {
+    font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 
 .title {
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: center;
 }
 
@@ -202,5 +207,51 @@ section {
 
 .icon {
     cursor: pointer;
-    height: 2rem;
+    height: 3rem;
+    margin-top: 1rem;
+}
+
+/* BUTTONS */
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem;
+}
+
+.btn {
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 0.75rem;
+    width: 8rem;
+    border-radius: 2rem;
+}
+
+.btn-color-1, .btn-color-2 {
+    border: rgb(53, 53, 53) 0.1 rem solid;
+}
+
+.btn-color-1:hover, .btn-color-2:hover {
+    cursor: pointer;
+}
+
+.btn-color-1, .btn-color-2:hover {
+    background: rgb(53, 53, 53);
+    color: white;
+}
+
+.btn-color-1:hover {
+    background: rgb(0, 0, 0)
+}
+
+.btn-color-2 {
+    background: none;
+}
+
+.btn-color-2:hover {
+    border: rgb(255, 255, 255);
+}
+
+.btn-container {
+    gap: rem;
 }
