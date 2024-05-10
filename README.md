@@ -12,7 +12,7 @@ To use the website, simply click on the buttons to navigate through the differen
 
 ## Credits
 
-Special thanks to Mazin Elthawy for helping with deploying and setting up the server.
+Special thanks to Mazin Elthawy for giving me the idea of getting the website. :)
 
 ## License
 
