@@ -12,7 +12,7 @@ To use the website, simply click on the buttons to navigate through the differen
 
 ## Credits
 
-Special thanks to Mazin Elthawy for giving me the idea of getting the website. :)
+Special thanks to Mazin Elthawy for helping with giving me the idea of buying the domain and creating the website. :3
 
 ## License
 
