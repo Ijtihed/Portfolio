@@ -230,12 +230,12 @@ section {
 
 .btn-color-1,
 .btn-color-2:hover {
-  background: rgb(0, 100, 92);
+  background: #00645c;
   color: white;
 }
 
 .btn-color-1:hover {
-  background: rgb(0, 100, 92);
+  background: rgb(255, 255, 255);
 }
 
 .btn-color-2 {
