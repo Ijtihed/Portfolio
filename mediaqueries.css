@@ -1,8 +1,57 @@
-@media screen and (max-width: 1200px) {
-    #desktop-nav {
+@media screen and (max-width: 768px) {
+    /* Hide images in logo and about sections */
+    .logo, .section__pic-container {
         display: none;
     }
-    #hamburger-nav {
-        display: flex;
+
+    /* Ensure projects stack vertically with increased specificity */
+    #projects .details-container.color-container {
+        flex-direction: column !important;
+        align-items: center !important;
+        width: 100%; /* Ensure full width */
+    }
+
+    /* Adjust base font sizes for readability */
+    body {
+        font-size: 14px; /* Smaller base font size for smaller screens */
+    }
+
+    .title, .experience-sub-title, .project-title {
+        font-size: 20px; /* Responsive title sizes */
+    }
+
+    .nav-links a {
+        font-size: 16px; /* Navigation links font size */
+    }
+
+    /* Adjust layout to column to stack items vertically */
+    .section-container, .about-details-container, .experience-details-container, .article-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Adjust contact section layout issues */
+    #contact .contact-info-upper-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn, .form-group input, .form-group textarea {
+        width: 100%; /* Full width for interactive elements */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Further reduce font sizes for very small screens */
+    body {
+        font-size: 12px; /* Even smaller base font size */
+    }
+
+    .title, .experience-sub-title, .project-title {
+        font-size: 18px; /* Adjust title sizes */
+    }
+
+    .nav-links a {
+        font-size: 14px; /* Smaller font size for navigation links */
     }
 }

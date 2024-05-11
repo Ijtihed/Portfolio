@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins";
 }
 
 html {
@@ -123,6 +123,7 @@ nav {
   gap: 2rem;
   list-style: none;
   font-size: 1.5rem;
+  font-weight: bolder;
 }
 
 a {
@@ -140,6 +141,8 @@ a:hover {
 
 .logo {
   font-size: 2rem;
+  font-weight: bolder;
+  color: rgb(0, 100, 92);
 }
 
 .logo:hover {
@@ -261,14 +264,14 @@ section {
   gap: 1rem;
 }
 
-/* about */
+/* about me */
 
 #about {
   position: relative;
 }
 
 .about-containers {
-  gap: 2rem;
+  gap: 1rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
@@ -294,27 +297,34 @@ section {
 }
 
 .details-container {
-  padding: 1.5rem;
+  padding: 1rem;
   flex: 1;
   background: white;
-  border-radius: 2rem;
+  border-radius: 1.75rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+  font-size: 1.25rem;
 }
 
 .section-container {
-  gap: 4rem;
+  gap: 7.5rem;
   height: 80%;
 }
 
 .section__pic-container {
-  height: 400px;
-  width: 400px;
+  height: 350px;
+  width: 350px;
   margin: auto 0;
 }
 
-/* experience */
+.text-container {
+    font-size: 1.5rem; 
+    font-weight: 600;
+}
+
+
+/* EXPERIENCE  */
 
 #experience {
   position: relative;
@@ -323,7 +333,7 @@ section {
 .experience-sub-title {
   color: rgb(85, 85, 85);
   font-weight: 600;
-  font-size: 1.75rem;
+  font-size: 2rem;
   margin-bottom: 2rem;
 }
 
@@ -379,6 +389,7 @@ article .icon {
   color: black;
   border-color: rgb(163, 163, 163);
 }
+
 
 /* contact info stuff */
 
