@@ -357,7 +357,7 @@ article .icon {
 }
 
 .section__text__p1 {
-  margin-top: 5rem;
+  margin-top: 8rem;
 }
 
 .color-container {
@@ -386,6 +386,7 @@ article .icon {
 /* contact info stuff */
 
 #contact {
+  margin-top: 3rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
