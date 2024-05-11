@@ -1,93 +1,83 @@
 @media screen and (max-width: 768px) {
-    /* Hide images in logo and about sections */
     .logo, .section__pic-container {
         display: none;
     }
 
-    /* Ensure projects stack vertically with increased specificity */
     #projects .details-container.color-container {
         flex-direction: column !important;
         align-items: center !important;
-        width: 100%; /* Ensure full width */
+        width: 100%;
     }
 
-    /* Adjust base font sizes for readability */
     body {
-        font-size: 14px; /* Smaller base font size for smaller screens */
+        font-size: 14px;
     }
 
     .title, .experience-sub-title, .project-title {
-        font-size: 20px; /* Responsive title sizes */
+        font-size: 20px;
     }
 
     .nav-links a {
-        font-size: 16px; /* Navigation links font size */
+        font-size: 16px;
     }
 
-    /* Adjust layout to column to stack items vertically */
     .section-container, .about-details-container, .experience-details-container, .article-container {
         flex-direction: column;
         align-items: center;
     }
 
-    /* Adjust contact section layout issues */
     #contact .contact-info-upper-container {
         flex-direction: column;
         align-items: center;
     }
 
     .btn, .form-group input, .form-group textarea {
-        width: 100%; /* Full width for interactive elements */
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 480px) {
-    /* Further reduce font sizes for very small screens */
     body {
-        font-size: 12px; /* Even smaller base font size */
+        font-size: 12px;
     }
 
     .title, .experience-sub-title, .project-title {
-        font-size: 18px; /* Adjust title sizes */
+        font-size: 18px; 
     }
 
     .nav-links a {
-        font-size: 14px; /* Smaller font size for navigation links */
+        font-size: 14px; 
     }
 }
 
-/* Hide footer navigation on desktop and larger screens */
 @media screen and (min-width: 768px) {
     footer {
         display: none;
     }
 }
 
-/* Ensure footer navigation is visible on mobile screens */
 @media screen and (max-width: 768px) {
     footer {
         display: block;
     }
 }
 
-/* Styling for the copyright text outside the footer */
 div[class="copyright"] {
     text-align: center;
-    padding: 20px 0;  /* Adds top and bottom padding */
-    background-color: #f0f0f0;  /* Optional: adds background color for visibility */
+    padding: 20px 0;  
+    background-color: #f0f0f0;  
 }
 
-/* Hide the navigation links in the footer on desktop screens */
+
 @media screen and (min-width: 768px) {
     footer .nav-links-container {
-        display: none;  /* This will hide the navigation links on desktop */
+        display: none; 
     }
 }
 
-/* Show the navigation links in the footer only on mobile screens */
 @media screen and (max-width: 768px) {
     footer .nav-links-container {
-        display: block;  /* Ensures the navigation links are visible on mobile */
+        display: block; 
     }
 }
 
