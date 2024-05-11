@@ -371,6 +371,7 @@ article .icon {
 }
 
 .color-container {
+  margin-top: 1rem;
   border-color: rgb(163, 163, 163);
   background: rgb(250, 250, 250);
 }
