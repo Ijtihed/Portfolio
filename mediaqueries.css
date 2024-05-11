@@ -70,3 +70,25 @@
     }
 }
 
+/* Styling for the copyright text outside the footer */
+div[class="copyright"] {
+    text-align: center;
+    padding: 20px 0;  /* Adds top and bottom padding */
+    background-color: #f0f0f0;  /* Optional: adds background color for visibility */
+}
+
+/* Hide the navigation links in the footer on desktop screens */
+@media screen and (min-width: 768px) {
+    footer .nav-links-container {
+        display: none;  /* This will hide the navigation links on desktop */
+    }
+}
+
+/* Show the navigation links in the footer only on mobile screens */
+@media screen and (max-width: 768px) {
+    footer .nav-links-container {
+        display: block;  /* Ensures the navigation links are visible on mobile */
+    }
+}
+
+
