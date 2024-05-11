@@ -356,6 +356,10 @@ article .icon {
   position: relative;
 }
 
+.section__text__p1 {
+  margin-top: 5rem;
+}
+
 .color-container {
   margin-top: 1rem;
   border-color: rgb(163, 163, 163);
