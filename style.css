@@ -57,7 +57,7 @@ p {
   display: block;
   padding: 10px;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: black;
   text-decoration: none;
   transition: all 0.3 ease-in-out;
@@ -107,7 +107,7 @@ nav {
 .nav-links {
   gap: 2rem;
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: bolder;
 }
 
@@ -125,7 +125,7 @@ a:hover {
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bolder;
   color: rgb(0, 100, 92);
 }
@@ -178,12 +178,12 @@ section {
 }
 
 .section__text__p2 {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   margin-bottom: 1rem;
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-align: center;
 }
 
@@ -290,7 +290,7 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 .section-container {
@@ -305,7 +305,7 @@ section {
 }
 
 .text-container {
-    font-size: 1.5rem; 
+    font-size: 1.25rem; 
     font-weight: 600;
 }
 
@@ -319,7 +319,7 @@ section {
 .experience-sub-title {
   color: rgb(85, 85, 85);
   font-weight: 600;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   margin-bottom: 2rem;
 }
 
@@ -437,82 +437,3 @@ body {
     padding: 0;
     box-sizing: border-box;
   }
-  .container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  .form-group {
-    margin-bottom: 1rv;
-  }
-  label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-  }
-  input[type='text'],
-  input[type='email'],
-  textarea {
-    width: 100%;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-  }
-  textarea {
-    height: 150px;
-  }
-  input[type='submit'] {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-  }
-  input[type='submit']:hover {
-    background-color: rgb(0, 100, 92);
-  }
-
-  .btn-color-1:hover {
-    background: rgb(0, 100, 92);
-    color: white;
-  }
-  
-  .btn-color-2:hover {
-    background: none;
-    border: rgb(0, 100, 92) 0.1rem solid;
-    color: black;
-  }
-  
-
-  .btn-color-2 {
-    background: none;
-    border: rgb(0, 100, 92) 0.1rem solid;
-    color: black; 
-  }
-  
-  .btn-color-2:hover {
-    background: none;
-    border: rgb(0, 100, 92) 0.1rem solid;
-    color: black;
-  }
-
-  .btn {
-    text-decoration: none; 
-    color: black; 
-    border: rgb(0, 100, 92) 0.1rem solid; 
-    background-color: white; 
-    transition: background-color 300ms ease, color 300ms ease; 
-  }
-  
-  .btn:hover {
-    text-decoration: underline; 
-    text-decoration-color: rgb(0, 100, 92); 
-    background-color: rgb(0, 100, 92); 
-    color: white; 
-  }
-  
-  
-  
