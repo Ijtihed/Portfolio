@@ -4,7 +4,7 @@ This is my personal portfolio website showcasing everything I've worked on, incl
 
 ## Demo
 
-The website is live at [https://ijtihed.com](https://www.ijtihed.com)).
+The website is live at [https://ijtihed.com](https://www.ijtihed.com).
 
 ## Usage
 
