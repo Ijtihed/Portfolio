@@ -10,7 +10,7 @@ Basic **Text** Clipboard Manager on Python. :)
 
 ### Prerequisites
 
-- Python 38 (lower versions should work, try yourself and request to edit this readme if it works with lower)
+- Python 3.8 (lower versions should work, try yourself and request to edit this readme if it works with lower)
 - Tkinter (usually comes with Python directly)
 
 ### Installation
