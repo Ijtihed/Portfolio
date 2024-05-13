@@ -1,19 +1,25 @@
-# Personal Portfolio Website
+# Text Clipboard Manager
 
-This is my personal portfolio website showcasing everything I've worked on, including software projects and research.
+Basic **Text** Clipboard Manager on Python. :)
 
-## Demo
+## Features
 
-The website is live at [https://ijtihed.com](https://www.ijtihed.com).
+- **Auto-Detection:** Automatically detects and saves new clipboard content. (Leave running in bg)
+- **History:** Access a list of previously copied items.
+- **Copy:** Right-click to copy items back to the clipboard from the history.
 
-## Usage
+### Prerequisites
 
-To use the website, simply click on the buttons to navigate through the different projects and sections. It's designed to be straightforward and easy to navigate.
+- Python 38 (lower versions should work, try yourself and request to edit this readme if it works with lower)
+- Tkinter (usually comes with Python directly)
 
-## Credits
+### Installation
 
-Special thanks to Mazin Elthawy for helping with giving me the idea of buying the domain and creating the website. :3
+1. Clone the repos (or download Zip and run):
+   ```bash
+   git clone https://github.com/Ijtihed/Text-Clipboard-Manager.git
 
-## License
+### LICENSE
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+MIT.
+
