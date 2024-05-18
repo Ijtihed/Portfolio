@@ -357,6 +357,11 @@ article .icon {
   position: relative;
 }
 
+.project-item hr {
+  display: none;
+}
+
+
 .title {
   margin-bottom: 0.5rem;
 }
