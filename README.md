@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-This is my personal portfolio website showcasing everything I've worked on, including software projects and research.
+This is my personal portfolio website showcasing everything I've worked on, including software projects and research. Uses Vanilla CSS and JS and HTML :) (fun little challenge)
 
 ## Demo
 
