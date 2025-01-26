@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ijtihed's Portfolio</title>
+  <link rel="icon" href="./Assets/iconlogo.png" type="image/icon type">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Ijtihed Kilani</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Ijtihed Kilani</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <ul>
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Ijtihed Kilani</h1>
+      <p class="section__text__p2">Student</p>
+      <div id="socials-container">
+        <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/ijtihed-kilani/'">
+        <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/Ijtihed'">
+        <img src="./assets/researchgate.png" alt="My ResearchGate profile" class="icon" onclick="location.href='https://www.researchgate.net/profile/Ijtihed-Kilani'">
+      </div>
+      <div class="btn-container">
+        <a href="./cv.pdf" target="_blank" class="btn btn-color-1">Download CV</a>
+        <a href="#contact" class="btn btn-color-2">Contact Me</a>
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/experience.png" alt="Experience icon" class="icon">
+            <h3>Experience</h3>
+            <p>4+ years of Programming<br>2+ years of Research</p>
+          </div>
+          <div class="details-container">
+            <img src="./assets/education.png" alt="Education icon" class="icon">
+            <h3>Education</h3>
+            <p>B.Sc. in Computational Engineering<br>Aalto University School of Engineering</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>Hello! I'm Ijtihed Kilani, a computational engineering student currently studying at Aalto University.</p>
+          <p>&nbsp;</p>
+          <p>My work spans from biotechnology and computational genomics—where I've analyzed over 1000 patient results and contributed to scientific publications—to software and game development through my company, Kilanos Studio.</p>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#experience'">
+  </section>
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Languages</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Python icon" class="icon">
+              <div>
+                <h3>Python</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="C# icon" class="icon">
+              <div>
+                <h3>Csharp</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Flutter (Dart) icon" class="icon">
+              <div>
+                <h3>Flutter (Dart)</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="HTML icon" class="icon">
+              <div>
+                <h3>HTML</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="CSS icon" class="icon">
+              <div>
+                <h3>CSS</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="JavaScript icon" class="icon">
+              <div>
+                <h3>JavaScript</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Documentation Tools</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Mendeley icon" class="icon">
+              <div>
+                <h3>Mendeley</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Overleaf icon" class="icon">
+              <div>
+                <h3>Overleaf</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Microsoft Word/Excel icon" class="icon">
+              <div>
+                <h3>Microsoft Word/Excel</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Obsidian icon" class="icon">
+              <div>
+                <h3>Obsidian</h3>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="LaTex icon" class="icon">
+              <div>
+                <h3>LaTex</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#projects'">
+  </section>
+  <section id="projects">
+    <p class="section__text__p1">Browse My</p>
+    <h1 class="title">Projects</h1>
+    <div class="filter-container">
+      <button class="filter-btn" onclick="filterProjects('python')">Python</button>
+      <button class="filter-btn" onclick="filterProjects('javascript')">JavaScript</button>
+      <button class="filter-btn" onclick="filterProjects('csharp')">Csharp</button>
+      <button class="filter-btn" onclick="filterProjects('dart')">Dart</button>
+      <button class="filter-btn" onclick="filterProjects('css')">CSS</button>
+      <button class="filter-btn" onclick="filterProjects('html')">HTML</button>
+      <button class="filter-btn" onclick="filterProjects('computational')">Computational</button>
+      <button class="filter-btn" onclick="filterProjects('biomedical')">Biomedical</button>
+      <button class="filter-btn btn-color-2" onclick="clearFilters()">Clear Filters</button>
+    </div>
+    <div class="projects-container">
+      <div class="project-item csharp">
+        <div class="project-content">
+          <div class="project-header">
+            <h2>Maze Maverick</h2>
+            <p class="project-languages">Csharp</p>
+          </div>
+          <p>Maze Maverick is a puzzle game where players navigate through complex mazes to find their way out. The game features multiple levels with increasing difficulty.</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://store.steampowered.com/app/2629610/Maze_Maverick/'">Live Demo</button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Ijtihed/Maze-Maverick'">Github</button>
+          </div>
+          <hr>
+        </div>
+      </div>
+      <div class="project-item dart">
+        <div class="project-content">
+          <div class="project-header">
+            <h2>The Holy Quran without Net</h2>
+            <p class="project-languages">Dart</p>
+          </div>
+          <p>The Holy Quran without Net is a digital version of the Quran that allows users to read the Quran offline. It includes features like bookmarking and easy navigation through surahs.</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://play.google.com/store/apps/details?id=quran.bedoon.net&hl=en&gl=US'">Live Demo</button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Ijtihed/quran-app'">Github</button>
+          </div>
+          <hr>
+        </div>
+      </div>
+      <div class="project-item csharp">
+        <div class="project-content">
+          <div class="project-header">
+            <h2>Blood Pivot</h2>
+            <p class="project-languages">Csharp</p>
+          </div>
+          <p>Blood Pivot is an adventure game that takes players on a thrilling journey to uncover the mysteries of a fictional world.</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://store.steampowered.com/app/2384470/Blood_Pivot/'">Live Demo</button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Ijtihed/Blood-Pivot'">Github</button>
+          </div>
+          <hr>
+        </div>
+      </div>
+      <div class="project-item python">
+        <div class="project-content">
+          <div class="project-header">
+            <h2>Text Clipboard Manager</h2>
+            <p class="project-languages">Python</p>
+          </div>
+          <p>A clipboard manager that saves and organizes text copied to the clipboard. It features auto-detection of new clipboard content and easy access to previously copied items.</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Ijtihed/Text-Clipboard-Manager'">Github</button>
+          </div>
+          <hr>
+        </div>
+      </div>
+      <div class="project-item html css javascript">
+        <div class="project-content">
+          <div class="project-header">
+            <h2>Portfolio Website</h2>
+            <p class="project-languages">HTML, CSS, JavaScript</p>
+          </div>
+          <p>This is my personal portfolio website showcasing my projects and experience. It is designed with a focus on simplicity and ease of navigation.</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://ijtihed.com'">Live Demo</button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Ijtihed/portfolio-site'">Github</button>
+          </div>
+          <hr>
+        </div>
+      </div>
+      <div class="project-item computational">
+        <div class="project-content">
+          <div class="project-header">
+            <h2>Using Informatics Concepts in Solving Mathematics Olympiad Questions</h2>
+            <p class="project-languages">Computational, Python</p>
+          </div>
+          <p>Led the writing and theoretical framework of a preprint addressing the Japanese Triangle Problem with Dynamic Programming, Graph Theory, and Heuristic Search.</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.researchgate.net/publication/373853647_Using_Informatics_Concepts_in_Solving_Mathematics_Olympiad_Questions'">Read Paper</button>
+          </div>
+          <hr>
+        </div>
+      </div>
+      <div class="project-item biomedical">
+        <div class="project-content">
+          <div class="project-header">
+            <h2>Comparative Study of Complete Blood Count Between High-Altitude and Sea-Level Residents</h2>
+            <p class="project-languages">Biomedical, Python</p>
+          </div>
+          <p>Co-authored a published study analyzing hematological differences due to altitude variations.</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.researchgate.net/publication/373757603_Comparative_Study_of_Complete_Blood_Count_Between_High-Altitude_and_Sea-Level_Residents_in_West_Saudi_Arabia'">Read Paper</button>
+          </div>
+          <hr>
+        </div>
+      </div>
+      <div class="project-item biomedical">
+        <div class="project-content">
+          <div class="project-header">
+            <h2>Single Nucleotide Polymorphisms in HIF-1A, VEGFa, & VHL Genes</h2>
+            <p class="project-languages">Biomedical</p>
+          </div>
+          <p>Contributed to a review on genetic adaptations in high-altitude residents versus sea-level residents.</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.researchgate.net/publication/378634471_Single_Nucleotide_Polymorphisms_in_HIF-1A_VEGFa_and_VHL_Genes_A_Comparative_Study_between_Sea_Level_and_High-_Altitude_Residents_in_West_Saudi_Arabia'">Read Paper</button>
+          </div>
+          <hr>
+        </div>
+      </div>
+      <div class="project-item csharp">
+        <div class="project-content">
+          <div class="project-header">
+            <h2>The Yappin' Spirit</h2>
+            <p class="project-languages">Csharp</p>
+          </div>
+          <p>Emotion-based horror game using Unity, OpenCV, DeepFace, and Flask for real-time emotion tracking and dynamic gameplay.</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://kilanos-studio.itch.io/the-yapping-spirit'">Live Demo</button>
+          </div>
+          <hr>
+        </div>
+      </div>      
+    </div>
+  </section>  
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon">
+        <p><a href="mailto:ijtihedk@gmail.com">ijtihed.kilani@aalto.fi</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon">
+        <p><a href="https://www.linkedin.com/in/ijtihed-kilani/">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+  <div class="copyright">
+    <p>© 2024 Ijtihed Kilani.</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
